@@ -2,4 +2,7 @@
 .sass-cache/
 *.css.map
 
+### misc
+.idea
+
 # Created by .ignore support plugin (hsz.mobi)
