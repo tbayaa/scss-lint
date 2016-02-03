@@ -1,37 +1,41 @@
 linters:
 
-  BorderZero:
-    enabled: true
-    convention: none
+    Indentation:
+        severity: warning
+        width: 4
 
-  BemDepth:
-    enabled: true
+    BorderZero:
+        enabled: true
+        convention: none
 
-  DeclarationOrder:
-    enabled: false
+    BemDepth:
+        enabled: true
 
-  ExtendDirective:
-    enabled: true
+    DeclarationOrder:
+        enabled: false
 
-  LeadingZero:
-    enabled: false
+    ExtendDirective:
+        enabled: true
 
-  PropertySortOrder:
-    enabled: false
+    LeadingZero:
+        enabled: false
 
-  QualifyingElement:
-    enabled: false
+    PropertySortOrder:
+        enabled: false
 
-  SelectorFormat:
-    enabled: true
-    convention: hyphenated_BEM
-    class_convention: ^(?!js-).*
-    class_convention_explanation: should not be written in the form js-*
+    QualifyingElement:
+        enabled: false
 
-  SingleLinePerProperty:
-    enabled: true
-    allow_single_line_rule_sets: false
+    SelectorFormat:
+        enabled: true
+        convention: hyphenated_BEM
+        class_convention: ^(?!js-).*
+        class_convention_explanation: should not be written in the form js-*
 
-  StringQuotes:
-    enabled: true
-    style: double_quotes
+    SingleLinePerProperty:
+        enabled: true
+        allow_single_line_rule_sets: false
+
+    StringQuotes:
+        enabled: true
+        style: double_quotes
