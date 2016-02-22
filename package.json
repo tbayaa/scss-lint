@@ -1,6 +1,6 @@
 {
   "name": "scss-lint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "scss-lint is a tool to help keep your SCSS files clean and readable.",
   "main": ".scss-lint.yml",
   "scripts": {
